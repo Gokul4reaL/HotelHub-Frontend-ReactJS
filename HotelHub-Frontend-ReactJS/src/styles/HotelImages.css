@@ -1,0 +1,12 @@
+/* HotelImages.css */
+.image-carousel {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+  
+  .carousel-image {
+    max-height: 400px; /* Adjust the maximum height as needed */
+    width: auto;
+    margin: 0 auto; /* Center the images horizontally within the carousel */
+  }
+  

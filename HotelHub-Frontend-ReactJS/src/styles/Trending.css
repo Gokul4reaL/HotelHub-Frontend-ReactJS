@@ -1,0 +1,46 @@
+/* Styling for the trending hotels container */
+.trending-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add padding for spacing */
+    background-color: #1d1c1c; /* Black background */
+    color: #fff; /* Text color for white text on the dark background */
+  }
+  
+  /* Styling for each trending hotel card */
+  .trending-card {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 400px; /* Limit the maximum width of cards */
+    padding: 20px;
+    background-color: #1d1c1c; /* Black background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: perspective(1000px) scale(1);
+    text-align: center;
+    margin: 20px 0; /* Spacing between cards */
+  }
+  
+  /* Hover effect for the trending hotel card */
+  .trending-card:hover {
+    transform: perspective(1000px) scale(1.05); /* Scale the card on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Trending hotel card title */
+  .trending-card h5 {
+    font-size: 20px;
+    margin: 0;
+    text-decoration: underline;
+  }
+  
+  /* Trending hotel card rating */
+  .trending-card p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+
+  

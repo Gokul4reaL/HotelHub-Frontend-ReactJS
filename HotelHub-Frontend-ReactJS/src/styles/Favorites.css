@@ -1,0 +1,31 @@
+/* Styling for the favorites container */
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styling for each favorite card */
+.favorite-card {
+  width: 300px; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #1d1c1c; /* Black background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transform: perspective(1000px);
+  color: #fff; /* Text color for white text on the dark background */
+  text-align: center;
+  position: relative;
+}
+
+.favorite-view-button-container {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 10px; /* Add margin to separate the button from the content */
+}
+
+
+

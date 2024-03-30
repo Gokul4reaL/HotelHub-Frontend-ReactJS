@@ -1,0 +1,68 @@
+/* Footer.css */
+
+/* Footer Container */
+.footer-container {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #111; /* Darker background color */
+  color: #ff7700; /* Neon shade text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Align content at both ends */
+  align-items: center; /* Vertically center content */
+  width: 100%;
+}
+
+/* Company Info */
+.company-info {
+  text-align: left;
+}
+
+.company-info h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.company-info p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #ff7700; /* Neon shade social icon color */
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #ffaa00; /* Neon shade social icon color on hover */
+}
+
+/* Copyright Info and Legal Links */
+.copyright-info {
+  text-align: right;
+}
+
+.copyright-info p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.copyright-info a {
+  text-decoration: none;
+  color: #ff7700; /* Neon shade link color */
+  margin-left: 10px;
+}
+
+.copyright-info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+

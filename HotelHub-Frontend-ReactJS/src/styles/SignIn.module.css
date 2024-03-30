@@ -1,0 +1,78 @@
+/* SignIn.module.css */
+
+.signin-container {
+  background: url('../../public/image4.jpg') center/cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f7f6f6;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add a background overlay */
+.signin-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Header Styles */
+.signin-h2,
+.signin-p {
+  color: #f7f6f6;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Form Styles */
+.signin-form-label {
+  color: #f7f6f6;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+.signin-form-control {
+  color: #060000;
+  font-size: 1.0rem;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.error-message {
+  color: white;
+  z-index: 1;
+  /* Add any other styles you want for the error message here */
+}
+
+/* Additional Text Styles */
+.signin-p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* Button Styles */
+.signin-btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}

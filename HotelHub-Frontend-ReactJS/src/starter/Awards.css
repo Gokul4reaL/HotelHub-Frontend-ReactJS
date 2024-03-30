@@ -1,0 +1,67 @@
+/* Awards.css */
+
+.awards-container {
+    background-color: #f06c4e; /* Neon Orange background color */
+    color: #000; /* Black text color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .awards-card {
+    text-align: center;
+  }
+  
+  .awards-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .awards-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #000;
+  }
+  
+  .awards-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .award {
+    text-align: center;
+    flex-basis: calc(33.33% - 20px); /* Adjust based on your design */
+    background-color: #fff; /* White background for awards */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .award-image {
+    max-width: 100px; /* Adjust image size as needed */
+    margin: 0 auto 10px; /* Center image and add spacing */
+  }
+  
+  .award-description {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .awards-button {
+    background-color: #000; /* Black button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .awards-button:hover {
+    background-color: #fbf9f9; /* Neon Orange hover color */
+    color: #000; /* Black text color on hover */
+  }
+  

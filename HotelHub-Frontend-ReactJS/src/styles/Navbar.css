@@ -1,0 +1,86 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    background-color: #333;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    padding: 10px 50px; /* Adjust the padding to add more space */
+    cursor: pointer;
+    position: relative;
+    color: #fef9f9;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+  
+  .navbar-item:last-child {
+    margin-left: auto;
+  }
+  
+  
+  
+  
+  .navbar-item:hover {
+    background-color: #ff7700;
+  }
+  
+  /* Dropdown Styles */
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left:0;
+    width: 100%; /* Set a minimum width to ensure enough space */
+    background-color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #444;
+    border-top: none;
+    display: none;
+    z-index: 999;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .navbar-item:hover .dropdown {
+    display: block;
+    flex-direction: row; /* Display dropdown items in a row */
+  }
+  
+  .dropdown-option {
+    padding: 10px; /* Adjust padding as needed */
+    margin: 0; /* Remove margin to avoid extra spacing */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    text-align: center;
+    color: #faf8f8;
+    text-decoration: none;
+    white-space: nowrap; /* Prevent text from wrapping */
+    margin-right: 20px; /* Add spacing between items */
+    margin-right: 0; /* Remove right margin for all items */
+  }
+  
+  
+  
+  .dropdown-option:hover {
+    background-color: #444;
+    color: #ff7700;
+  }
+
+  /* Add styles for the active tab */
+.navbar-item.active {
+    background-color: #ff7700;
+    color: black; /* Change text color for better visibility */
+  }
+  
+  /* Add styles for the active tab on hover */
+  .navbar-item.active:hover {
+    background-color: #ff7700;
+  }
+  

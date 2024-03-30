@@ -1,0 +1,33 @@
+/* Sidebar.css */
+
+/* Styling for the sidebar toggle button */
+.custom-offcanvas {
+    height: 60%; /* Adjust the height to your desired value */
+    background-color: #ff8c00;
+    color: black;
+  }
+
+.sidebar-toggle {
+    background-color: #ff8c00;
+    color: black;
+    border: none;
+  }
+  
+  /* Styling for the Offcanvas container */
+  .custom-offcanvas {
+    background-color: #ff8c00;
+    color: black;
+  }
+  
+  /* Styling for the buttons inside the Offcanvas */
+  .btn-outline-orange {
+    background-color: black;
+    border-color: #ff8c00;
+    color: #ff8c00;
+  }
+  
+  .btn-outline-orange:hover {
+    background-color: #ff8c00;
+    color: black;
+  }
+  

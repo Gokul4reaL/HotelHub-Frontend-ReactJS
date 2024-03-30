@@ -1,0 +1,85 @@
+/* ViewProfile.css */
+
+/* Profile details container */
+.profile-details {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
+  
+  /* Profile picture styles */
+  .profile-picture {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Spacing between image and user details */
+  }
+  
+  .user-details {
+    margin-top: 20px;
+    color: #ff9900; /* Set the text color to orange */
+  }
+  
+  .user-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff9900; /* Set the text color to orange */
+  }
+  
+  .user-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-details li {
+    margin-bottom: 10px;
+    color: #ff9900; /* Set the text color to orange */
+  }
+  
+  /* Back to Dashboard button */
+  .back-to-dashboard-button {
+    background-color: #ff7700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .back-to-dashboard-button:hover {
+    background-color: #ffcc66;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin-top: 20px;
+  }
+  
+  .edit-profile-button {
+    display: inline-block;
+    background-color: #ff7700;
+    color: #0c0000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a transition effect for hover */
+  }
+  
+  .edit-profile-button:hover {
+    background-color: #ffcc66; /* Change the background color on hover */
+  }

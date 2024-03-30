@@ -1,0 +1,79 @@
+/* Add this CSS to your styles */
+/* Modify your CSS */
+.HotelDetails {
+    background-color: black;
+    color: #ff8c00;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .hotel-explore-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+  
+  .hotel-explore-card {
+    flex: 1;
+    border: 1px solid #ff8c00;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hotel-explore-card:hover {
+    transform: perspective(1000px) scale(1.05); /* Scale the card on hover */
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .hotel-button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add margin to separate the button from the content */
+  }
+  
+  .hotel-button {
+    background-color: #ff8c00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hotel-button:hover {
+    background-color: black;
+    color: #ff8c00;
+    border: 2px solid #ff8c00;
+  }
+
+  /* Add this CSS to your HotelDetails.css */
+.additional-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .additional-button {
+    background-color: #ff8c00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .additional-button:hover {
+    background-color: black;
+    color: #ff8c00;
+    border: 2px solid #ff8c00;
+  }
+  
+  

@@ -1,0 +1,14 @@
+/* Header.css */
+
+.header-container {
+  background-color: #000; /* Set your desired black background color */
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 80px; 
+  margin-bottom: 20px;/* Adjust the height as needed */
+}
+
+.logo {
+  max-width: 70px; /* Set your desired maximum width for the minimized logo */
+}

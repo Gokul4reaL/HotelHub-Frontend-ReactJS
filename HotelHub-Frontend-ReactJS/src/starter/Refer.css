@@ -1,0 +1,74 @@
+/* Referral Program Container */
+.referral-container-card {
+    background-color: #f06c4e;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Referral Program Card */
+  .referral-card {
+    text-align: left;
+  }
+  
+  /* Referral Program Title */
+  .referral-card h3 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 16px;
+  }
+  
+  /* Referral Program Paragraphs */
+  .referral-card p {
+    font-size: 16px;
+    color: #060000;
+    margin-bottom: 16px;
+  }
+  
+  /* Referral Program Rules and Rewards */
+  .referral-rules,
+  .referral-rewards {
+    margin-top: 16px;
+  }
+  
+  /* Referral Program Rules and Rewards Titles */
+  .referral-rules h4,
+  .referral-rewards h4 {
+    font-size: 18px;
+    color: #080000;
+    margin-bottom: 12px;
+  }
+  
+  /* Referral Program Rules and Rewards List Items */
+  .referral-rules ul,
+  .referral-rewards ul {
+    font-size: 16px;
+    color: #070000;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+  
+  /* Referral Program Back Button */
+  .referral-card button {
+    background-color: #060606;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .referral-back
+  {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px;
+  }
+  
+ 
+  

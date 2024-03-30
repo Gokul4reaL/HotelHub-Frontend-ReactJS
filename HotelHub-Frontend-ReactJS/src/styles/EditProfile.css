@@ -1,0 +1,89 @@
+/* EditProfile.css */
+
+/* Container styling */
+.edit-profile-container {
+    max-width: 400px;
+    margin: 0 auto; /* Horizontally center the container */
+    padding: 20px;
+    background-color: #333; /* Dark background color */
+    color: #ff8c00; /* Orange text color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 3D-like box shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center contents horizontally */
+    justify-content: center; /* Center contents vertically */
+  }
+  
+  /* Heading styling */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center contents horizontally */
+    width: 100%; /* Make the form take the full width of the container */
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ff8c00;
+    text-align: center; /* Center labels horizontally */
+    display: block; /* Display labels as block elements */
+  }
+  
+/* Input field styling for the EditProfile component */
+.edit-input {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ff8c00; /* Orange border */
+    border-radius: 5px;
+    background-color: #222; /* Dark input background */
+    color: #ff8c00; /* Orange text color */
+    width: 100%; /* Make the input fields take the full width of the form */
+  }
+  
+  /* Button styling */
+  .save-button {
+    padding: 10px 20px;
+    background-color: #ff8c00; /* Orange button background */
+    color: #333; /* Dark button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #ff6b00; /* Darker orange on hover */
+  }
+  
+  button:hover {
+    background-color: #ff6b00; /* Darker orange on hover */
+  }
+  
+  .custom-file-input {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8c00; /* Orange button background color */
+    color: #060000; /* Dark button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-input:hover {
+    background-color: #ff6b00; /* Darker orange on hover */
+  }
+  /* Optional: Add more styles as needed for other user data fields */
+  

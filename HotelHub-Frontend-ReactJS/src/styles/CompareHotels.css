@@ -1,0 +1,19 @@
+
+  .compare-view-button,.show-more-button
+  {
+    background-color: #ff8c00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .compare-view-button,.show-more-button {
+    background-color: black;
+    color: #ff8c00;
+    border: 2px solid #ff8c00;
+  }
+
+
+  

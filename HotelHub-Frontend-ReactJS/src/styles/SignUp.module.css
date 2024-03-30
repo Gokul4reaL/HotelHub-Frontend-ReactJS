@@ -1,0 +1,69 @@
+/* SignUp.module.css */
+
+/* Apply background image to the body */
+.signup-container {
+  background: url('../../public/hotel7.jpg') center/cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f7f6f6;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add a background overlay */
+.signup-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Text Styles */
+.signup-h2,
+.signup-p,
+.signup-form-label {
+  color: #f7f6f6;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.signup-form-control {
+  color: #090000;
+  font-size: 1.0rem;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Label Styles */
+.signup-label {
+  color: #f7f6f6;
+  font-size: 1.0rem;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Button Styles */
+.signup-btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}

@@ -1,0 +1,22 @@
+.tab-menu {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+    }
+  
+    li {
+      cursor: pointer;
+      padding: 10px 20px;
+      background-color: #eee;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+  
+    li.active {
+      background-color: #007bff;
+      color: white;
+    }
+  }
+  

@@ -1,0 +1,36 @@
+/* About Us Container */
+.about-container-card {
+    background-color: #f06c4e; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Card Styles */
+  .about-card {
+    padding: 20px;
+  }
+  
+  .about-card h3 {
+    font-size: 24px;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px;
+  }
+  
+  .about-card p {
+    font-size: 16px;
+    color: #0d0000; /* Slightly darker text color */
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Media Query for Responsiveness */
+  @media (max-width: 768px) {
+    .container-card {
+      margin: 10px;
+    }
+  }
+  
